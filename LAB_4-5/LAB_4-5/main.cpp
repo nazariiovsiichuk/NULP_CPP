@@ -1,8 +1,8 @@
 //
 //  main.cpp
-//  NULP_CPP
+//  LAB_4-5
 //
-//  Created by Nazarii Ovsiichuk on 17.09.2025.
+//  Created by Nazarii Ovsiichuk on 29.09.2025.
 //
 
 #include <iostream>
