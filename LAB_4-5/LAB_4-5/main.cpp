@@ -56,7 +56,6 @@ int main() {
         }
     }
 
-    // --- Handle creating ---
     cout << "\n---Creating new battery---\n";
     double cap, volt;
     string mat;
