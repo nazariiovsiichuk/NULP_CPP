@@ -4,7 +4,7 @@
 
 using namespace std;
 
-class Battery{
+class Battery {
     double cap;
     double volt;
     string mat;
@@ -55,6 +55,21 @@ int main() {
             b.print();
         }
     }
+
+    // --- Handle creating ---
+    cout << "\n---Creating new battery---\n";
+    double cap, volt;
+    string mat;
+    cout << "Enter capacity (mAh): ";
+    cin >> cap;
+    cout << "Enter Current (V): ";
+    cin >> volt;
+    cout << "Enter Material: ";
+    cin >> mat;
+
+    Battery userBattery(cap, volt, mat);
+    cout << "Created battery: ";
+    userBattery.print();
 
     return 0;
 }
